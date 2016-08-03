@@ -16,6 +16,11 @@ export default React.createClass({
   },
 
   render: function(){
-    return null
+    <div className="cartTotal">
+      <ul>
+      <li>{this.props.addItems}
+      </li>
+      </ul>
+    </div>
   }
 });
